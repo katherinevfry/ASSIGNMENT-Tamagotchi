@@ -10,6 +10,8 @@ const addSleep = () => {
   return energy;
 };
 
+const sleepMessage = 'TIME TO GET UP';
+
 const gainEnergy = (e) => {
   const targetId = e.target.id;
 
@@ -17,6 +19,11 @@ const gainEnergy = (e) => {
     document.querySelector('#energyScore').innerHTML = `<h4>${addNap()}</h4>`;
   } else if (targetId === 'deepSleep') {
     document.querySelector('#energyScore').innerHTML = `<h4>${addSleep()}</h4>`;
+  }
+
+  if (energy >= 100) {
+    document.querySelector('#energyScore').innerHTML = `<h4>${sleepMessage}</h4>`;
+    energy = 100;
   }
 };
 
