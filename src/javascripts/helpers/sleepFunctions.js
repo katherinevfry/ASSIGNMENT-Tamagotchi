@@ -17,8 +17,10 @@ const gainEnergy = (e) => {
 
   if (targetId === 'nap') {
     document.querySelector('#energyScore').innerHTML = `<h4>${addNap()}</h4>`;
+    document.querySelector('#energyArea').innerHTML = '<i class="fas fa-cloud-moon"></i>';
   } else if (targetId === 'deepSleep') {
     document.querySelector('#energyScore').innerHTML = `<h4>${addSleep()}</h4>`;
+    document.querySelector('#energyArea').innerHTML = '<i class="fas fa-bed"></i>';
   }
 
   if (energy >= 100) {

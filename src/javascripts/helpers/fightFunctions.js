@@ -17,8 +17,10 @@ const gainStrength = (e) => {
 
   if (targetId === 'runAway') {
     document.querySelector('#strengthScore').innerHTML = `<h4>${addStrength()}</h4>`;
+    document.querySelector('#fightArea').innerHTML = '<i class="fas fa-running"></i>';
   } else if (targetId === 'violence') {
     document.querySelector('#strengthScore').innerHTML = `<h4>${minusStrength()}</h4>`;
+    document.querySelector('#fightArea').innerHTML = '<i class="fas fa-skull-crossbones"></i>';
   }
 
   if (strength >= 100) {
