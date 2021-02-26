@@ -10,6 +10,8 @@ const minusStrength = () => {
   return strength;
 };
 
+const fightMessage = 'NO MORE FIGHTING';
+
 const gainStrength = (e) => {
   const targetId = e.target.id;
 
@@ -17,6 +19,11 @@ const gainStrength = (e) => {
     document.querySelector('#strengthScore').innerHTML = `<h4>${addStrength()}</h4>`;
   } else if (targetId === 'violence') {
     document.querySelector('#strengthScore').innerHTML = `<h4>${minusStrength()}</h4>`;
+  }
+
+  if (strength >= 100) {
+    document.querySelector('#strengthScore').innerHTML = `<h4>${fightMessage}</h4>`;
+    strength = 100;
   }
 };
 

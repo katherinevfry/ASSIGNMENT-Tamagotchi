@@ -10,7 +10,7 @@ const minusFull = () => {
   return full;
 };
 
-// const fullMessage = 'YOU ARE FULL';
+const fullMessage = 'YOU ARE FULL';
 
 const eatFood = (e) => {
   const targetId = e.target.id;
@@ -19,6 +19,11 @@ const eatFood = (e) => {
     document.querySelector('#fullScore').innerHTML = `<h4>${addFull()}</h4>`;
   } else if (targetId === 'unhealthyFood') {
     document.querySelector('#fullScore').innerHTML = `<h4>${minusFull()}</h4>`;
+  }
+
+  if (full >= 100) {
+    document.querySelector('#fullScore').innerHTML = `<h4>${fullMessage}</h4>`;
+    full = 100;
   }
 };
 

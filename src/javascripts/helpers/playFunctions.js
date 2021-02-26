@@ -10,6 +10,8 @@ const minusFun = () => {
   return fun;
 };
 
+const playMessage = 'GET SOME REST';
+
 const haveFun = (e) => {
   const targetId = e.target.id;
 
@@ -17,6 +19,11 @@ const haveFun = (e) => {
     document.querySelector('#funScore').innerHTML = `<h4>${addFun()}</h4>`;
   } else if (targetId === 'slightlyFun') {
     document.querySelector('#funScore').innerHTML = `<h4>${minusFun()}</h4>`;
+  }
+
+  if (fun >= 100) {
+    document.querySelector('#funScore').innerHTML = `<h4>${playMessage}</h4>`;
+    fun = 100;
   }
 };
 
