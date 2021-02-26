@@ -11,7 +11,7 @@ const pageBuilder = () => {
   document.querySelector('#play').innerHTML = `<div id='playDiv'>
   <h2>Play</h2>
 <h5>Fun</h5>
-<h6 id='funScore'></h6>
+<h4 id='funScore'>50</h4>
 <hr>
 <button type='button' class='btn btn-outline-dark' id='superFun'>Super Fun</button>
 <button type='button' class='btn btn-outline-dark' id='slightlyFun'>Slightly Fun</button>
@@ -20,7 +20,7 @@ const pageBuilder = () => {
   document.querySelector('#fight').innerHTML = `<div id='fightDiv'>
   <h2>Fight</h2>
 <h5>Strength</h5>
-<h6 id='strengthScore'></h6>
+<h4 id='strengthScore'>100</h4>
 <hr>
 <button type='button' class='btn btn-outline-dark' id='runAway'>Run Away</button>
 <button type='button' class='btn btn-outline-dark' id='violence'>Commit violence</button>
@@ -29,10 +29,10 @@ const pageBuilder = () => {
   document.querySelector('#sleep').innerHTML = `<div id='sleepDiv'>
   <h2>Sleep</h2>
 <h5>Energy</h5>
-<h6 id='energyScore'></h6>
+<h4 id='energyScore'>50</h4>
 <hr>
 <button type='button' class='btn btn-outline-dark' id='nap'>Nap</button>
-<button type='button' class='btn btn-outline-dark' id='deepSleep'>deepSleep</button>
+<button type='button' class='btn btn-outline-dark' id='deepSleep'>deep sleep</button>
 </div>`;
 };
 
