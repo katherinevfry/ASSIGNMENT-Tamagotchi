@@ -2,7 +2,7 @@ const pageBuilder = () => {
   document.querySelector('#eat').innerHTML = `<div id='eatDiv'>
 <h2>Eat</h2>
 <h5>Fullness</h5>
-<h6 id='fullScore'></h6>
+<h4 id='fullScore'>100</h4>
 <hr>
 <button type='button' class='btn btn-outline-dark' id='healthyFood'>Healthy Food</button>
 <button type='button' class='btn btn-outline-dark' id='unhealthyFood'>Cookies</button>
