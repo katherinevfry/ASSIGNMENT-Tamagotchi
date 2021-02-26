@@ -17,8 +17,10 @@ const haveFun = (e) => {
 
   if (targetId === 'superFun') {
     document.querySelector('#funScore').innerHTML = `<h4>${addFun()}</h4>`;
+    document.querySelector('#funArea').innerHTML = '<i class="fas fa-book-dead"></i>';
   } else if (targetId === 'slightlyFun') {
     document.querySelector('#funScore').innerHTML = `<h4>${minusFun()}</h4>`;
+    document.querySelector('#funArea').innerHTML = '<i class="fas fa-chess"></i>';
   }
 
   if (fun >= 100) {

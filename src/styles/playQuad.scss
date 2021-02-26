@@ -1,0 +1,30 @@
+#play {
+  width: 50%;
+  height: 350px;
+  text-align: center;
+  background: rgb(238,174,202);
+  background: linear-gradient(4deg, rgba(238,174,202,1) 0%, rgba(240,207,101,1) 100%);
+  border-radius:25px;
+}
+
+.funContainer {
+  height: 75px;
+  width: 175px;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  background: rgb(231,231,231);
+  background: linear-gradient(4deg, rgba(231,231,231,1) 0%, rgba(201,201,201,1) 100%);
+}
+
+#funArea {
+  margin: auto;
+};
+
+.fa-book-dead, .fa-chess {
+  text-align: center;
+}
+
+.buttonArea {
+  margin: 10px;
+}
