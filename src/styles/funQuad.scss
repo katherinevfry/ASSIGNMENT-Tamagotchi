@@ -1,0 +1,26 @@
+#eat {
+  height: 20rem;
+  width: 38rem;
+  text-align: center;
+  background: rgb(247,178,173);
+  background: linear-gradient(4deg, rgba(247,178,173,1) 0%, rgba(178,148,233,1) 100%);
+  border-radius:25px;
+}
+
+.foodContainer {
+  height: 75px;
+  width: 175px;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  background: rgb(231,231,231);
+  background: linear-gradient(4deg, rgba(231,231,231,1) 0%, rgba(156,156,156,1) 100%);
+}
+
+#eatArea {
+  margin: auto;
+};
+
+.buttonArea {
+  margin: 10px;
+}

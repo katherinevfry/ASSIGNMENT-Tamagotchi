@@ -1,0 +1,30 @@
+#sleep {
+  height: 20rem;
+  width: 38rem;
+  text-align: center;
+  background: rgb(238,174,202);
+  background: linear-gradient(4deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius:25px;
+}
+
+.sleepContainer {
+  height: 75px;
+  width: 175px;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: auto;
+  background: rgb(231,231,231);
+  background: linear-gradient(4deg, rgba(231,231,231,1) 0%, rgba(156,156,156,1) 100%);
+}
+
+#energyArea {
+  margin: auto;
+};
+
+.fa-cloud-moon, .fa-bed {
+  text-align: center;
+}
+
+.buttonArea {
+  margin: 10px;
+}
