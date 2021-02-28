@@ -18,4 +18,5 @@ The user is likely a millennial who wants to relive the glory days of their yout
 - The fighting area allows the user to select whether their pet will run away of commit an act of violence. Only running away bravely allows the user's pet to gain points.
 - The user cannot go over 100 points in each game area. If the user attempts to do so, a message will display, alerting the user they have attempted to exceed the limit.
 
-## Link to Loom video walkthrough of your app 
+## Loom walkthrough of Tamagucci app
+https://www.loom.com/share/f8af2c3d293f46d685a217d1b3cb2142
