@@ -3,7 +3,7 @@ import '../styles/funQuad.scss';
 import '../styles/fightQuad.scss';
 import '../styles/playQuad.scss';
 import '../styles/sleepQuad.scss';
-import '../styles/header.scss';
+import '../styles/footer.scss';
 import pageBuilder from './components/pageBuilder';
 import buttonClicks from './helpers/domEvents';
 
