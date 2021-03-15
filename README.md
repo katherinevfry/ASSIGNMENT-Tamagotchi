@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/148f01d2-f31e-40c6-aa8c-4552065773a7/deploy-status)](https://app.netlify.com/sites/kf-tamagotchi/deploys)
 # Tamagucci
 ![tamagucci image](https://github.com/katherinevfry/photo-area/blob/main/Tamagucci.png)
 ## Overview
